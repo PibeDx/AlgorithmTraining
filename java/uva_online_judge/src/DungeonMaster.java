@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Created by cpinan on 6/16/17.
  */
-public class Main {
+public class DungeonMaster {
 
     private static final String INPUT_FILE = "dungeon_case.txt";
     private static final String OUTPUT_FILE = "dungeon_result.txt";
@@ -197,7 +197,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Main p = new Main();
+        DungeonMaster p = new DungeonMaster();
         try {
             p.resolve();
         } catch (FileNotFoundException e) {
